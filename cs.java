@@ -5,10 +5,10 @@ import java.sql.SQLException;
 
 public class ChangeSchema {
     public static void main(String[] args) {
-
+        
         Connection connection = null;
         Connection connectionCom = null;
-        String[] list = new String[]{"newdatabs.db"};
+        String[] list = new String[]{"BOOMBOOM.db"};
 
         String div= null;
         String date = null;
